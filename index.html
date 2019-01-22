@@ -2,57 +2,84 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>Gaming Academy</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="logo" src="imagenes/logo.png">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Formacion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Equipo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Juegos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Torneos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Iniciar sesión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Registrarse</a>
-            </li>
+        <nav id="menu" class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"> <img id="logo" src="imagenes/logo.png"</a>
+          </div>
+          <ul id="submenu" class="nav navbar-nav">
+            <li><a href="#">Inicio</a></li>
+            <!-- <li><a href="#">Formacion</a></li>
+            <li><a href="#">Equipo</a></li> -->
+            <li><a href="#">Juegos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#"></a> </li>
+          </ul>
+          <ul id="submenu2" class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logueate</a></li>
           </ul>
         </div>
       </nav>
     </header>
-
-    <div class="jumbotron" style="background: url(imagenes/banner.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:300px;">
-      <h1>BANNER</h1>
+    <div class="lorem">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
+    <div class="jumbotron" style="background-image: url(imagenes/banner.jpg); height: 200px; margin-top: 50px; margin-left: 100px; margin-right:100px; border-radius: 25px"></div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <a href="#">
+        <h2 class="counter">CSGO</h2>
+        <img id="fifa" src="imagenes/csgo.jpeg">
+        <div class="loremCsgo">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. <a class="mas" href="#">+ Mas</a>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+        <h2 class="fifaTexto">FIFA</h2>
+        <img id="fifa" src="imagenes/fifa.jpg">
+        <div class="loremFifa">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. <a class="mas" href="#">+ Mas</a>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+        <h2 class="fortniteTexto">FORTNITE</h2>
+        <img id="fortnite" src="imagenes/fortnite.jpg">
+        <div class="loremFortnite">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. <a class="mas" href="#">+ Mas</a>
+        </div>
+        </a>
+      </div>
+    </div>
+
   </body>
     <!-- Footer -->
     <footer>
       <!-- Copyright -->
-      <div class="copy">© 2019 Copyright:</div>
+      <div class="copy" style="color:white;">© 2019 Copyright:</div>
         <div class="nombre">
           Francisco Ortolá Piles
         </div>

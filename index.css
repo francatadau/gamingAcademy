@@ -1,36 +1,87 @@
-li {
-  float: right;
+#logo {
+  height: 60px;
+  margin-left: -20px;
+  margin-top: -10px;
 }
 
-footer {
-  margin-top: 400px;
-}
-
-img {
-  width: 85px;
+.container-fluid {
   height: 50px;
 }
 
-.collapse navbar-collapse {
-  text-align: right;
+#menu {
+  height: 70px;
+  text-transform: uppercase;
 }
 
-.jumbotron {
-  margin-top: 120px;
+.active a{
+  height: 68px;
 }
 
-.copy {
+#submenu {
+  margin-top: 10px;
+}
+
+#submenu2 {
+  margin-top: 10px;
+}
+
+.lorem {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+footer {
   text-align: center;
-  margin-right:240px;
+  margin-top: 40px;
+  background-color: #222;
+}
+
+#fifa, #csgo, #fortnite {
+  margin-top: 40px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.row {
+  margin-left: 280px;
+  margin-top: 60px;
+}
+
+.counter {
+  margin-left: 50px;
+}
+
+.fifaTexto {
+  margin-left: 60px;
+}
+
+.fortniteTexto {
+  margin-left: 26px;
+}
+
+.row a {
+  text-decoration: none;
+  color: black;
 }
 
 .nombre {
-  margin-top: -24px;
-  margin-right: -50px;
-  text-align: center;
-  color: #CC0000;
+  color: red;
 }
 
-.nombre:hover{
+.loremCsgo, .loremFifa, .loremFortnite{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+a.mas {
+  color: red;
+}
+
+.mas:hover {
   text-decoration: underline;
 }
