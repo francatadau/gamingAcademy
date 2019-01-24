@@ -23,7 +23,7 @@
 
 footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 200px;
   background-color: #222;
   height: 180px;
   width: 100%;
@@ -37,10 +37,6 @@ footer {
   text-align: left;
   margin-top: 30px;
   margin-left: 20px;
-}
-
-#localizacion {
-  margin-left: 140px;
 }
 
 #copyright {
@@ -58,14 +54,18 @@ i {
 }
 
 .formulario {
+  background-color: #222;
+  color: red;
+  border-radius: 25px;
+  border: 2px solid red;
   text-align: center;
-  margin-right: 300px;
-  margin-top: -275px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 40px;
 }
 
-#mapa {
-  margin-left: 650px;
-  margin-top: 60px;
+#localizacion {
+  margin-left: 140px;
 }
 
 #boton {
